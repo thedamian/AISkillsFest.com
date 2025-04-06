@@ -2,7 +2,7 @@
 AISkillsFest.com website and resources
 
 ## Contents of this repo.
-- Website - The AISkillsFest.com website
+- Docs - The AISkillsFest.com website
 - PythonCode - example code in python
 - DotnetCode - example code in DotNet
 
