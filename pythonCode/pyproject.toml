@@ -1,0 +1,11 @@
+[project]
+name = "pythoncode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-ai-inference>=1.0.0b9",
+    "dotenv>=0.9.9",
+    "openai>=1.70.0",
+]
