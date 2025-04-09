@@ -35,6 +35,21 @@
         <li>another different azure agent: <a href="https://github.com/Azure/agent-innovator-lab?tab=readme-ov-file">https://github.com/Azure/agent-innovator-lab?tab=readme-ov-file</a></li>
         <li>Gen AI with Streamlit: https://streamlit.io/generative-ai</li>
         </ul>
+        <pre>
+API Compatible endpoints to use the different services:
+Gemini
+https://generativelanguage.googleapis.com/v1beta/openai/
+Groq (for mistral and llama)
+https://api.groq.com/openai/v1
+For all of them, make sure to call the right model also.
+But that's not when you create the client with this code:
+
+const client = new OpenAI({
+  apiKey: process.env.GROQ_API_KEY,
+  baseURL: "https://api.groq.com/openai/v1"
+});
+        
+        </pre>
         </article>
     
 </body>
