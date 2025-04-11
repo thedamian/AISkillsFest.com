@@ -16,6 +16,7 @@ AISkillsFest.com website and resources
 https://www.youtube.com/watch?v=idH0dD7UiqE&
 - https://learn.microsoft.com/en-us/credentials/support/ai-skills-fest-faq
 - Azure Model Pricing: https://ai.azure.com/explore/models?tid=58d273cf-409b-42f9-bf5a-bdec9b49b918
+- Gen AI with Streamlit: https://streamlit.io/generative-ai
   
 ## Sessions for Skill Fest
 https://aiskillsfest.event.microsoft.com/sessioncatalog?SkipCount=1&showstyle=listView&countlimit=12&sort=Chronological&topFilterActiveTab=nav-item-0&showRefineResult=true&leftFilterExp=((search.ismatch(%27Main%20Stage%27,%27AdditionalFilter2%27,%27simple%27,%27all%27)))
