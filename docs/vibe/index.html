@@ -147,13 +147,19 @@
         <ul>
             <li>Google Gemini: <a href="https://generativelanguage.googleapis.com/v1beta/openai/">https://generativelanguage.googleapis.com/v1beta/openai/</a><BR></li>
             <li>Groq (with a Q) for DeepSeek : <a href="https://api.groq.com/openai/v1"></a><BR></li>
-            <li><BR>Code example: <BR><BR>
+            <li><BR>Code example    : <BR><BR>
             <pre>
-        // Example:                
-        const client = new OpenAI({
-            apiKey: process.env.GROQ_API_KEY,
+        # Example for Groq API               
+        client = AsyncOpenAI(
+            apiKey: "GROQ_API_KEY",
             baseURL: "https://api.groq.com/openai/v1"
         });
+
+        # Example for Ollama API
+        client = AsyncOpenAI(
+            api_key=None,  # Or your Ollama API key if configured
+            base_url="http://localhost:3000/v1",  # Ollama's API endpoint is typically /v1
+        )
             </pre>
         </ul>
     
