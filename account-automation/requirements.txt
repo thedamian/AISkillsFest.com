@@ -1,0 +1,5 @@
+azure-identity
+msgraph-core
+msgraph-sdk
+requests
+python-dotenv
